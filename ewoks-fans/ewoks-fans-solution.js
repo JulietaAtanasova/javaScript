@@ -33,11 +33,9 @@ function solve(args) {
     printResult(dateArray[dateArray.length - 1], 'fan');
     printResult(dateArray[0], 'hater');
     
-
     function printResult(date, type) {
         console.log('The biggest ' + type + ' of ewoks was born on ' + date.toDateString());
     }
-
 }
 
 solve(['22.03.2014', '17.05.1933', '10.10.1954']);
